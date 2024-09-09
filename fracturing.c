@@ -1,3 +1,7 @@
+Nikhil Chandrashekar
+UCFID: 5641442
+
+
 #include <stdio.h>
 #include <math.h>//Allows math functions and math work to be preformed in the code//
 #define PI 3.14159//Through program, PI is understood as 3.14159//
