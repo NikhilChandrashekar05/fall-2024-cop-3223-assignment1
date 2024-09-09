@@ -8,7 +8,7 @@
 // Input: x1, x2, y1, y2
 //
 // Output: (to the command line) Prints what user entered, distance, perimeter, area, width and height
-// //********************************************************
+ //********************************************************
 
 
 #include <stdio.h>
