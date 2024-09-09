@@ -1,5 +1,14 @@
-//Nikhil Chandrashekar
-//UCFID: 5641442
+//********************************************************
+// fracturing.c
+// Assignment 1
+// Author: Nikhil Chandrashekar
+// UCFID: 5641442
+// Class: COP 3223, Professor Parra
+// Purpose: This program takes in user input to enter coordinates and prints out distance, perimeter, area, width and height from the 4 sets of points in (x,y) format.
+// Input: x1, x2, y1, y2
+//
+// Output: (to the command line) Prints what user entered, distance, perimeter, area, width and height
+// //********************************************************
 
 
 #include <stdio.h>
@@ -45,11 +54,13 @@ double calculateHelperforcode()
     
     return distance;
 
+//**********************************************************************
 // For double calculateHelperforcode()
 //The purpose is to act as a helper to execute and return distance
 //The points of coordinates would be the inputs
 //The output would be the printing of the user being prompted to enter the points till showing what they have entered and finally the distance between the points//
 //Returns distance
+//**********************************************************************
 
 }
 
@@ -60,8 +71,10 @@ double calculateDistance() {
     double distance = calculateHelperforcode(); 
     printf("\nThe distance between the two points is: %.2f\n", distance);//Prints out what the distance is//
     return distance;
+//**********************************************************************
     //This part of code actually prints out what the distance is after preforming the math from above and the points being entered//
     //returns the distance between the 2 points//
+//**********************************************************************
         
     }
 
@@ -75,12 +88,14 @@ double calculatePerimeter() {
 
     return 3.0;// Level of difficulty//
     
+    //**********************************************************************
     //For double calculatePerimeter this function gives perimeter//
     //The purpose is to input the points and return the perimeter through math///
     //There is no input other than the recurring x1,x2,y1,y2//
     //The output is the perimeter//
     //Return a value given by you to show how challenging it was to build this function in the code//
-    }
+    //**********************************************************************
+}
 
 
 double calculateArea() {
@@ -93,12 +108,14 @@ double calculateArea() {
 
     return 4.0;// level of difficulty//
     
+    //**********************************************************************
     //For double calculateArea 
     //The purpose is to preform the math through the formula and print the area of the given points
     //There is no input other than the recurring x1,x2,y1,y2//
     //The output is the area of the given points//
     //Return a value given by you to show how challenging it was to build this function in the code//
-    }
+    //**********************************************************************
+}
 
 double calculateWidth() {
     
@@ -107,13 +124,15 @@ double calculateWidth() {
     printf("\nThe width of the city encompassed by your request is %.2lf\n", calwidth); //Simply recalls distance and prints//
     
     return 2.0; //Level of difficulty//
-    
+
+    //**********************************************************************
     //For double calculateWidth
     //The purpose is to preform the math and print the width//
     //There is no inputs other than the recurring x1,x2,y1,y2//
     //The output is it prints out the width//
     //Return a value given by you to show how challenging it was to build this function in the code//
-    }
+    //**********************************************************************
+}
 
 double calculateHeight() {
     
@@ -122,11 +141,12 @@ double calculateHeight() {
     printf("\nThe height of the city encompassed by your request is %.2lf\n", calheight);//Simply recalls distance and prints//
     
     return 2.0; //level of difficulty//
-    
+
+    //**********************************************************************
     //For double calculateHeight
     //The purpose is to preform the math and print the height//
     //There is no inputs other than the recurring x1,x2,y1,y2//
     //The output is it prints out the height//
     //Return a value given by you to show how challenging it was to build this function in the code//
-    
+    //**********************************************************************
     }
